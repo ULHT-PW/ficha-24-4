@@ -6,9 +6,7 @@ Univesidade Lusófona
 ### Objetivo:
 * familiarizar-se com a modelação em Django.
 * Crie um projeto django diretamente no PythonAnywhere seguindo os passos apresentados na aula teória. Use como username o seu número.
-* Irá criar várias aplicações, centrando-se apenas na modelação e criação de alguns conteúdos usando o admin.
-* explore a aplicação
-
+* Irá criar várias aplicações, centrando-se apenas na modelação e criação de alguns conteúdos usando a aplicação admin do Django, interface de administração da base de dados.
   
 ### 1. Aplicação Música
 
@@ -20,9 +18,11 @@ Univesidade Lusófona
    * guarde para cada álbum uma capa
    * para algumas músicas guarde o link da música no spotify
    * guarde uma foto da banda, e informações variadas
+* faça os passos makemigrations e migrate para migrar o models para a base de dados 
 * guarde informação para cada uma das tabelas através da aplicação admin.
 * configure a aplicação admin de modo a listar informação util e permitir pesquisas adequadas.
 
+  
 Nota: daqui a algumas semanas irá construir a parte de front-end desta aplicação.
 
 ### 2. Aplicação Curso
