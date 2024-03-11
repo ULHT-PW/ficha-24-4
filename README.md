@@ -1,50 +1,41 @@
 # ficha-24-4
 
-# 1. Projeto no PythonAnyWhere
+# Exercícios de Modelação em Django
 
-* Crie um projeto django no PythonAnywhere seguindo os passos apresentados na aula teória. Use o seu numero como username.
+* Crie um projeto django diretamente no PythonAnywhere seguindo os passos apresentados na aula teória. Use o seu numero como username.
+* Irá criar várias aplicações, centrando-se apenas na parte de modelação
 
-# 2. Exercícios de modelação
+### 1. Aplicação Música
 
-### Aplicação Música
-
-* crie uma aplicação que tenha em models.py um conjunto de classes que permitam definir bandas, seus álbuns e músicas. Considere que alguns álbuns são colectâneas best-of, podendo haver músicas repetidas.
-* Em relação a cada classe, crie um conjunto de atributos. Em especial guarde para cada álbum uma capa, e para algumas músicas guarde o link da música no spotify.
+* seguindo os passos dos slides da aula teórica, crie a aplicação bandas:
+   1. `python manage-py startapp bandas`
+   1. em `project\settings.py`, adicione à lista `INSTALLED_APPS` a aplicação `bandas`. 
+* em models.py, crie um conjunto de classes que permitam definir bandas, seus álbuns e músicas. 
+* Em relação a cada classe, crie um conjunto de atributos. Sugestões:
+   * guarde para cada álbum uma capa
+   * para algumas músicas guarde o link da música no spotify
+   * guarde uma foto da banda, e informações variadas
 * guarde informação para cada uma das tabelas através da aplicação admin.
+* configure a aplicação admin de modo a listar informação util e permitir pesquisas adequadas.
 
-Nota: posteriormente, daqui a algumas semanas, fará a parte de front-end desta aplicação.
-  
-# Exemplos para exercícios de modelacao
+Nota: daqui a algumas semanas irá construir a parte de front-end desta aplicação.
 
-### classes que explorem todos os campos de tipo
+### 2. Aplicação Curso
 
-### classes que explorem todos os campos de relação
-* user - role (n:n)
-* cidadão - cartão de identificação (1:1)
-* linguagem programaçao - disciplina (1:n)
-    * disciplinas que usam determinada linguagem
-    * linguagem usada numa disciplina 
-* disciplina - aluno (n:n)
-    * listar as disciplinas
-    * listar disciplinas do 2º ano
-    * listar discilpinas do 1º e 2º anos
-    * listar nomes dos alunos da disciplina de nome PW
-    * alunos de PW com mais de 18 e menos de 25 anos 
-* disciplina - professor (n:n) e disciplina - aluno (n:n)
-* livro - autor (n:1)
+crie uma aplicação que permita definir um curso, suas disciplinas, seus docentes e projetos. Inspire-se nesta [página](https://informatica.ulusofona.pt/projetos-de-unidades-curriculares) e [nesta](https://informatica.ulusofona.pt/ensino/licenciaturas/engenharia-informatica/)
 
-### operações CRUD com ORM Django
-métodos:
-* create
-* save
-* all
-* filter
-* exclude
-* add 
-* get
-* exists
-* delete
-* remove
-* order_by
-* count
-* values_list
+Algumas ideias:
+* uma disciplina tem um conjunto de docentes
+* um docente pode lecionar várias disciplinas
+* uma disciplina tem um conjunto de informações tais como ano, semestre, programa.
+* uma disciplina pode ter um ou mais projetos
+* configure a aplicação admin de modo a listar informação util de cada classe e permitir pesquisas adequadas.
+
+### 3. Aplicação Mentoria
+
+O Programa de Mentoría é um programa do DEISI de alunos para alunos, suportado por uma [aplicação](https://horarios.pythonanywhere.com/) em desenvolvimento no âmbito dum TFC. Explore a aplicação, fazendo login e pedindo recuperação da sua password com o email que está no Moodle. 
+
+Crie uma aplicação que modele o programa de mentorias. Algumas ideias:
+* um aluno pode ser mentor/mentorando de uma ou mais disciplinas
+* uma díade é um par (mentor,mentorando), que realiza sessões de mentoria em dias específicos
+* configure a aplicação admin de modo a listar informação util de cada classe e permitir pesquisas adequadas.
