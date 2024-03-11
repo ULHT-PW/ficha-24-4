@@ -1,10 +1,15 @@
-# ficha-24-4
+Univesidade Lusófona
+**Programação Web**
 
-# Exercícios de Modelação em Django
+# Ficha 4: Modelação em Django
 
-* Crie um projeto django diretamente no PythonAnywhere seguindo os passos apresentados na aula teória. Use o seu numero como username.
-* Irá criar várias aplicações, centrando-se apenas na parte de modelação
+### Objetivo:
+* familiarizar-se com a modelação em Django.
+* Crie um projeto django diretamente no PythonAnywhere seguindo os passos apresentados na aula teória. Use como username o seu número.
+* Irá criar várias aplicações, centrando-se apenas na modelação e criação de alguns conteúdos usando o admin.
+* explore a aplicação
 
+  
 ### 1. Aplicação Música
 
 * seguindo os passos dos slides da aula teórica, crie a aplicação bandas:
