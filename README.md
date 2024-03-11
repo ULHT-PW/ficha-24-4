@@ -41,12 +41,14 @@ Esta aplicação será integrada no seu projeto final, o seu protfolio, uma exce
 
 ### 3. Aplicação noticias
 
-Crie uma aplicação blog que permita armazenar artigos de várias fontes e autores que pode recolher de fontes que considere interessantes (por exemplo, do blog medium). Inspire-se em blogs que conheça de modo a fazer uma modelação rica. deverá permitir, além dos posts, inserir comentários, e ratings. 
+Crie uma aplicação blog que permita armazenar artigos de vários autores (um autor pode ter varios artigos), que pode recolher de fontes que considere interessantes (por exemplo, do blog medium, podem haver vários artigos, assim como do Quora). Inspire-se em blogs que conheça de modo a fazer uma modelação rica. deverá permitir, além dos posts, inserir comentários, e ratings. 
 
 <!-- 
 ### 3. Aplicação Mentoria
 
 O Programa de Mentoría é um programa do DEISI de alunos para alunos, suportado por uma [aplicação](https://horarios.pythonanywhere.com/) em desenvolvimento no âmbito dum TFC. Explore a aplicação, fazendo login e pedindo recuperação da sua password com o email que está no Moodle. 
+
+Esta aplicação congregará artigos que considera interessantes, na área da programação web.
 
 Crie uma aplicação que modele o programa de mentorias. Algumas ideias:
 * um aluno pode ser mentor/mentorando de uma ou mais disciplinas
