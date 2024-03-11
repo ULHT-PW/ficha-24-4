@@ -8,7 +8,7 @@ Univesidade Lusófona
 * Crie um projeto django diretamente no PythonAnywhere seguindo os passos apresentados na aula teória. Use como username o seu número.
 * Irá criar várias aplicações, centrando-se apenas na modelação e criação de alguns conteúdos usando a aplicação admin do Django, interface de administração da base de dados.
   
-### 1. Aplicação Música
+### 1. Aplicação bandas
 
 * seguindo os passos dos slides da aula teórica, crie a aplicação bandas:
    1. `python manage-py startapp bandas`
@@ -22,10 +22,9 @@ Univesidade Lusófona
 * crie conteúdos de um par de bandas e seus discos e músicas através da aplicação admin.
 * configure a aplicação admin de modo a listar informação util e permitir pesquisas adequadas.
 
-  
 Nota: daqui a algumas semanas irá construir a parte de front-end desta aplicação.
 
-### 2. Aplicação Curso
+### 2. Aplicação curso
 
 crie uma aplicação que permita definir um curso, suas disciplinas, seus docentes e projetos. Inspire-se nesta [página](https://informatica.ulusofona.pt/projetos-de-unidades-curriculares) e [nesta](https://informatica.ulusofona.pt/ensino/licenciaturas/engenharia-informatica/)
 
@@ -40,6 +39,11 @@ Algumas ideias:
 
 Esta aplicação será integrada no seu projeto final, o seu protfolio, uma excelente carta de apresentação em entrevistas de emprego que permitirá mostrar os projetos que desenvolveu ao longo do seu curso.
 
+### 3. Aplicação noticias
+
+Crie uma aplicação blog que permita armazenar artigos de várias fontes e autores que pode recolher de fontes que considere interessantes (por exemplo, do blog medium). Inspire-se em blogs que conheça de modo a fazer uma modelação rica. deverá permitir, além dos posts, inserir comentários, e ratings. 
+
+<!-- 
 ### 3. Aplicação Mentoria
 
 O Programa de Mentoría é um programa do DEISI de alunos para alunos, suportado por uma [aplicação](https://horarios.pythonanywhere.com/) em desenvolvimento no âmbito dum TFC. Explore a aplicação, fazendo login e pedindo recuperação da sua password com o email que está no Moodle. 
@@ -48,3 +52,4 @@ Crie uma aplicação que modele o programa de mentorias. Algumas ideias:
 * um aluno pode ser mentor/mentorando de uma ou mais disciplinas
 * uma díade é um par (mentor,mentorando), que realiza sessões de mentoria em dias específicos
 * configure a aplicação admin de modo a listar informação util de cada classe e permitir pesquisas adequadas.
+-->
