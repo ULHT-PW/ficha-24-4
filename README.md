@@ -19,7 +19,7 @@ Univesidade Lusófona
    * para algumas músicas guarde o link da música no spotify
    * guarde uma foto da banda, e informações variadas
 * faça os passos makemigrations e migrate para migrar o models para a base de dados 
-* guarde informação para cada uma das tabelas através da aplicação admin.
+* crie conteúdos de um par de bandas e seus discos e músicas através da aplicação admin.
 * configure a aplicação admin de modo a listar informação util e permitir pesquisas adequadas.
 
   
