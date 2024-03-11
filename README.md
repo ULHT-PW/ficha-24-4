@@ -36,8 +36,9 @@ Algumas ideias:
 * uma disciplina pode ter um ou mais projetos
 * cada projeto pode ter descrição, imagem, url para repo no github, informação de tecnologias usadas, um link para um video no yotube.
 * configure a aplicação admin de modo a listar informação util de cada classe e permitir pesquisas adequadas.
+* crie conteúdos de um par de disciplinas e seus projetos. Na proxima semana ser-lhe-ão facultados dados detalhados de seu curso e respetivas disciplinas, e implementará uma função para carregar esta informação na sua base de dados de forma automática.
 
-Esta aplicação será integrada no seu projeto final, o seu protfolio, uma excelente carta de apresentação em entrevistas de emprego que permitirá mostrar os projetos que desenvolveu ao longo do seu curso
+Esta aplicação será integrada no seu projeto final, o seu protfolio, uma excelente carta de apresentação em entrevistas de emprego que permitirá mostrar os projetos que desenvolveu ao longo do seu curso.
 
 ### 3. Aplicação Mentoria
 
