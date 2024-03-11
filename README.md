@@ -11,7 +11,7 @@ Univesidade Lusófona
 ### 1. Aplicação bandas
 
 * seguindo os passos dos slides da aula teórica, crie a aplicação bandas:
-   1. `python manage-py startapp bandas`
+   1. `python manage.py startapp bandas`
    1. em `project\settings.py`, adicione à lista `INSTALLED_APPS` a aplicação `bandas`. 
 * em models.py, crie um conjunto de classes que permitam definir bandas, seus álbuns e músicas. 
 * Em relação a cada classe, crie um conjunto de atributos. Sugestões:
