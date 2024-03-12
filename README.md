@@ -42,6 +42,9 @@ Crie uma aplicação que permita armazenar artigos de vários autores. Inspire-s
 
 Esta aplicação será integrada no seu projeto final, o seu protfolio. vAqui incluirá artigos que considera interessantes ligados com a Programação Web.
 
+# Submissão
+
+submeta o link da sua aplicação, assim como as credenciais de um superuser para aceder ao admin (username e password). Pode criar vários superusers
 
 <!-- 
 
