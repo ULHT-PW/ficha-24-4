@@ -10,12 +10,12 @@ Univesidade Lusófona
 
 ### 0. Aplicação Pessoas no PC
 
-* siga os passos do [tutorial](https://github.com/ULHT-PW/pw-24-04-ficha-modelacao/blob/main/pw-24-04-criacao-de-app-em-pythonanywhere.pdf) para criar uma primeira aplicação em Django no seu PC
+* siga os passos do [tutorial](pw-24-04-criacao-de-app-no-pc.pdf) para criar uma primeira aplicação em Django no seu PC
 
 
 ### 1. Aplicação Pessoas no PythonAnyWhere
 
-* siga os passos do [tutorial](https://github.com/ULHT-PW/pw-24-04-ficha-modelacao/blob/main/pw-24-04-criacao-de-app-em-pythonanywhere.pdf) para criar uma primeira aplicação em Django diretamente no PythonAnyWhere
+* siga os passos do [tutorial](pw-24-04-criacao-de-app-em-pythonanywhere.pdf) para criar uma primeira aplicação em Django diretamente no PythonAnyWhere
 
 ### 2. Aplicação bandas
 
