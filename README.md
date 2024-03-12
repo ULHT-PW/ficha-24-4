@@ -9,11 +9,11 @@ Univesidade Lusófona
 * Irá criar várias aplicações, centrando-se apenas na modelação e criação de alguns conteúdos usando a aplicação admin do Django, interface de administração da base de dados.
 
 
-### 0. Aplicação base
+### 1. Aplicação Pessoas
 
 * siga os passos do [tutorial](https://github.com/ULHT-PW/pw-24-04-ficha-modelacao/blob/main/pw-24-04-criacao-de-app-em-pythonanywhere.pdf) para criar uma primeira aplicação em Django
 
-### 1. Aplicação bandas
+### 2. Aplicação bandas
 
 * seguindo os passos dos slides anteriores, a partir da parte 3 (slide 19), crie uma nova aplicação **bandas**:
    1. `python manage.py startapp bandas`
@@ -32,7 +32,13 @@ Univesidade Lusófona
 
 Nota: daqui a algumas semanas irá construir a parte de front-end desta aplicação.
 
-### 2. Aplicação curso
+### 3. Aplicação noticias
+
+Crie uma aplicação blog que permita armazenar artigos de vários autores (um autor pode ter varios artigos), que pode recolher de fontes que considere interessantes (por exemplo, do blog medium, podem haver vários artigos, assim como do Quora). Inspire-se em blogs que conheça de modo a fazer uma modelação rica. deverá permitir, além dos posts, inserir comentários, e ratings. Crie 2 artigos.
+
+Esta aplicação será integrada no seu projeto final, o seu protfolio.
+
+### 4. Aplicação curso
 
 crie uma aplicação que permita definir um curso, suas disciplinas, seus docentes e projetos. Inspire-se nesta [página](https://informatica.ulusofona.pt/projetos-de-unidades-curriculares) e [nesta](https://informatica.ulusofona.pt/ensino/licenciaturas/engenharia-informatica/)
 
@@ -45,14 +51,12 @@ Algumas ideias:
 * configure a aplicação admin de modo a listar informação util de cada classe e permitir pesquisas adequadas.
 * crie conteúdos de um par de disciplinas e seus projetos. Na proxima semana ser-lhe-ão facultados dados detalhados de seu curso e respetivas disciplinas, e implementará uma função para carregar esta informação na sua base de dados de forma automática.
 
-Esta aplicação será integrada no seu projeto final, o seu protfolio, uma excelente carta de apresentação em entrevistas de emprego que permitirá mostrar os projetos que desenvolveu ao longo do seu curso.
+Esta aplicação será integrada no seu projeto final, o seu protfolio. Será uma excelente carta de apresentação em entrevistas de emprego que permitirá mostrar os projetos que desenvolveu ao longo do seu curso.
 
-### 3. Aplicação noticias
 
-Crie uma aplicação blog que permita armazenar artigos de vários autores (um autor pode ter varios artigos), que pode recolher de fontes que considere interessantes (por exemplo, do blog medium, podem haver vários artigos, assim como do Quora). Inspire-se em blogs que conheça de modo a fazer uma modelação rica. deverá permitir, além dos posts, inserir comentários, e ratings. 
 
 <!-- 
-### 3. Aplicação Mentoria
+### 5. Aplicação Mentoria
 
 O Programa de Mentoría é um programa do DEISI de alunos para alunos, suportado por uma [aplicação](https://horarios.pythonanywhere.com/) em desenvolvimento no âmbito dum TFC. Explore a aplicação, fazendo login e pedindo recuperação da sua password com o email que está no Moodle. 
 
