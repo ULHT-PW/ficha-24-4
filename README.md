@@ -7,10 +7,15 @@ Univesidade Lusófona
 * familiarizar-se com a modelação em Django.
 * Crie um projeto django diretamente no PythonAnywhere seguindo os passos apresentados na aula teória. Use como username o seu número.
 * Irá criar várias aplicações, centrando-se apenas na modelação e criação de alguns conteúdos usando a aplicação admin do Django, interface de administração da base de dados.
-  
+
+
+### 0. Aplicação base
+
+* siga os passos do [tutorial](https://github.com/ULHT-PW/pw-24-04-ficha-modelacao/blob/main/pw-24-04-criacao-de-app-em-pythonanywhere.pdf) para criar uma primeira aplicação em Django
+
 ### 1. Aplicação bandas
 
-* seguindo os passos dos slides da aula teórica, crie a aplicação bandas:
+* seguindo os passos dos slides anteriores, a partir do , crie a aplicação bandas:
    1. `python manage.py startapp bandas`
    1. em `project\settings.py`, adicione à lista `INSTALLED_APPS` a aplicação `bandas`. 
 * em models.py, crie um conjunto de classes que permitam definir bandas, seus álbuns e músicas. 
