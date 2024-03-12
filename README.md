@@ -8,10 +8,14 @@ Univesidade Lusófona
 * Crie um projeto django diretamente no PythonAnywhere seguindo os passos apresentados na aula teória. Use como username o seu número.
 * Irá criar várias aplicações, centrando-se apenas na modelação e criação de alguns conteúdos usando a aplicação admin do Django, interface de administração da base de dados.
 
+### 0. Aplicação Pessoas no PC
 
-### 1. Aplicação Pessoas
+* siga os passos do [tutorial](https://github.com/ULHT-PW/pw-24-04-ficha-modelacao/blob/main/pw-24-04-criacao-de-app-em-pythonanywhere.pdf) para criar uma primeira aplicação em Django no seu PC
 
-* siga os passos do [tutorial](https://github.com/ULHT-PW/pw-24-04-ficha-modelacao/blob/main/pw-24-04-criacao-de-app-em-pythonanywhere.pdf) para criar uma primeira aplicação em Django
+
+### 1. Aplicação Pessoas no PythonAnyWhere
+
+* siga os passos do [tutorial](https://github.com/ULHT-PW/pw-24-04-ficha-modelacao/blob/main/pw-24-04-criacao-de-app-em-pythonanywhere.pdf) para criar uma primeira aplicação em Django diretamente no PythonAnyWhere
 
 ### 2. Aplicação bandas
 
@@ -37,6 +41,7 @@ Nota: daqui a algumas semanas irá construir a parte de front-end desta aplicaç
 Crie uma aplicação que permita armazenar artigos de vários autores. Inspire-se em blogs que conheça de modo a fazer uma modelação rica. deverá permitir, além dos posts, inserir comentários, e ratings. Insira 2 artigos, por exemplo, do blog medium ou Quora. 
 
 Esta aplicação será integrada no seu projeto final, o seu protfolio. vAqui incluirá artigos que considera interessantes ligados com a Programação Web.
+
 
 <!-- 
 
