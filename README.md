@@ -32,13 +32,15 @@ Univesidade Lusófona
 
 Nota: daqui a algumas semanas irá construir a parte de front-end desta aplicação.
 
-### 3. Aplicação noticias
+### 3. Aplicação artigos
 
-Crie uma aplicação blog que permita armazenar artigos de vários autores (um autor pode ter varios artigos), que pode recolher de fontes que considere interessantes (por exemplo, do blog medium, podem haver vários artigos, assim como do Quora). Inspire-se em blogs que conheça de modo a fazer uma modelação rica. deverá permitir, além dos posts, inserir comentários, e ratings. Crie 2 artigos.
+Crie uma aplicação que permita armazenar artigos de vários autores. Inspire-se em blogs que conheça de modo a fazer uma modelação rica. deverá permitir, além dos posts, inserir comentários, e ratings. Insira 2 artigos, por exemplo, do blog medium ou Quora. 
 
-Esta aplicação será integrada no seu projeto final, o seu protfolio.
+Esta aplicação será integrada no seu projeto final, o seu protfolio. vAqui incluirá artigos que considera interessantes ligados com a Programação Web.
 
-### 4. Aplicação curso
+<!-- 
+
+### 4. Aplicação curso (a desenvolver até 21.3)
 
 crie uma aplicação que permita definir um curso, suas disciplinas, seus docentes e projetos. Inspire-se nesta [página](https://informatica.ulusofona.pt/projetos-de-unidades-curriculares) e [nesta](https://informatica.ulusofona.pt/ensino/licenciaturas/engenharia-informatica/)
 
@@ -55,7 +57,7 @@ Esta aplicação será integrada no seu projeto final, o seu protfolio. Será um
 
 
 
-<!-- 
+
 ### 5. Aplicação Mentoria
 
 O Programa de Mentoría é um programa do DEISI de alunos para alunos, suportado por uma [aplicação](https://horarios.pythonanywhere.com/) em desenvolvimento no âmbito dum TFC. Explore a aplicação, fazendo login e pedindo recuperação da sua password com o email que está no Moodle. 
