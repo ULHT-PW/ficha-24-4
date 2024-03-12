@@ -5,8 +5,9 @@ Univesidade Lusófona
 
 ### Objetivo:
 * familiarizar-se com a modelação em Django.
-* Crie um projeto django diretamente no PythonAnywhere seguindo os passos apresentados na aula teória. Use como username o seu número.
-* Irá criar várias aplicações, centrando-se apenas na modelação e criação de alguns conteúdos usando a aplicação admin do Django, interface de administração da base de dados.
+* Criar projeto django no pc
+* Criar um projeto django diretamente no PythonAnywhere seguindo os passos apresentados na aula teória. Use como username o seu número.
+* Criar várias aplicações, centrando-se apenas na modelação e criação de alguns conteúdos usando a aplicação admin do Django, interface de administração da base de dados.
 
 ### 0. Aplicação Pessoas no PC
 
